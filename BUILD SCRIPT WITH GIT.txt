@@ -3,7 +3,7 @@ pipeline {
 stages {
         stage(' git Pull') {
             steps {
-              git branch: 'dev', credentialsId: '52df0b4d-f1e8-4f1e-ac12-b98ed3c664da', url: 'http://gitlab.virinchi.com/gitlab-instance-6547a7f2/sample_pipeline_project.git'
+              
             }
         }
         stage('Build') {
