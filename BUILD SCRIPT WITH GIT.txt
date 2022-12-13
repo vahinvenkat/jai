@@ -1,11 +1,11 @@
 pipeline {
     agent any
 stages {
-        stage(' git Pull') {
+        stage(' git clone') {
             steps {
              git 'https://github.com/vahinvenkat/jai.git'
             }
-        }
+        }       
         stage('Build') {
             steps {
                 bat 'mvn clean package'
