@@ -3,7 +3,7 @@ pipeline {
 stages {
         stage(' git Pull') {
             steps {
-              git 'https://github.com/vahinvenkat/jai.git'
+             
             }
         }
         stage('Build') {
